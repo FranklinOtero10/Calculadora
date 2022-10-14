@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="16dp"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/txvOperacion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        tools:text="5+5"
+        android:textSize="60sp" />
+
+    <TextView
+        android:id="@+id/txvResultado"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:textAlignment="textEnd"
+        android:textSize="60sp"
+        android:textStyle="bold"
+        tools:text="10" />
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="40dp"
+        android:columnCount="4">
+
+        <Button
+            android:id="@+id/btnClearAll"
+            android:layout_marginStart="5dp"
+            android:backgroundTint="#212121"
+            android:text="@string/clear"
+            android:textColor="#cc0000"
+            android:textSize="50sp" />
+
+        <Button
+            android:id="@+id/btnParentesis"
+            android:layout_marginStart="5dp"
+            android:backgroundTint="#212121"
+            android:text="@string/parentesis"
+            android:textColor="#1565C0"
+            android:textSize="50sp" />
+
+        <Button
+            android:id="@+id/btnPorcentaje"
+            android:layout_marginStart="5dp"
+            android:backgroundTint="#212121"
+            android:text="@string/porcentaje"
+            android:textColor="#1565C0"
+            android:textSize="50sp" />
+
+        <Button
+            android:id="@+id/btnDivision"
+            android:layout_marginStart="5dp"
+            android:backgroundTint="#212121"
+            android:text="@string/division"
+            android:textColor="#1565C0"
+            android:textSize="50sp" />
+
+        <Button
+            android:id="@+id/btnNumero7"
+            android:layout_marginStart="5dp"
+            android:backgroundTint="#212121"
+            android:text="@string/numero7"
+            android:textColor="#F5F5F5"
+            android:textSize="50sp" />
+
+        <Button
+            android:id="@+id/btnNumero8"
+            android:layout_marginStart="5dp"
+            android:backgroundTint="#212121"
+            android:text="@string/numero8"
+            android:textColor="#F5F5F5"
+            android:textSize="50sp" />
+
+        <Button
+            android:id="@+id/btnNumero9"
+            android:layout_marginStart="5dp"
+            android:backgroundTint="#212121"
+            android:text="@string/numero9"
+            android:textColor="#F5F5F5"
+            android:textSize="50sp" />
+
+        <Button
+            android:id="@+id/btnMultiplicacion"
+            android:layout_marginStart="5dp"
+            android:backgroundTint="#212121"
+            android:text="@string/multiplicacion"
+            android:textColor="#1565C0"
+            android:textSize="50sp" />
+
+        <Button
+            android:id="@+id/btnNumero4"
+            android:layout_marginStart="5dp"
+            android:backgroundTint="#212121"
+            android:text="@string/numero4"
+            android:textColor="#F5F5F5"
+            android:textSize="50sp" />
+
+        <Button
+            android:id="@+id/btnNumero5"
+            android:layout_marginStart="5dp"
+            android:backgroundTint="#212121"
+            android:text="@string/numero5"
+            android:textColor="#F5F5F5"
+
+            android:textSize="50sp" />
+
+        <Button
+            android:id="@+id/btnNumero6"
+            android:layout_marginStart="5dp"
+            android:backgroundTint="#212121"
+            android:text="@string/numero6"
+            android:textColor="#F5F5F5"
+            android:textSize="50sp" />
+
+        <Button
+            android:id="@+id/btnResta"
+            android:layout_marginStart="5dp"
+            android:backgroundTint="#212121"
+            android:text="@string/resta"
+            android:textColor="#1565C0"
+            android:textSize="50sp" />
+
+        <Button
+            android:id="@+id/btnNumero1"
+            android:layout_marginStart="5dp"
+            android:backgroundTint="#212121"
+            android:text="@string/numero1"
+            android:textColor="#F5F5F5"
+            android:textSize="50sp" />
+
+        <Button
+            android:id="@+id/btnNumero2"
+            android:layout_marginStart="5dp"
+            android:backgroundTint="#212121"
+            android:text="@string/numero2"
+            android:textColor="#F5F5F5"
+            android:textSize="50sp" />
+
+        <Button
+            android:id="@+id/btnNumero3"
+            android:layout_marginStart="5dp"
+            android:backgroundTint="#212121"
+            android:text="@string/numero3"
+            android:textColor="#F5F5F5"
+            android:textSize="50sp" />
+
+        <Button
+            android:id="@+id/btnSuma"
+            android:layout_marginStart="5dp"
+            android:backgroundTint="#212121"
+            android:text="@string/suma"
+            android:textColor="#1565C0"
+            android:textSize="50sp" />
+
+        <Button
+            android:id="@+id/btnSQRT"
+            android:layout_marginStart="5dp"
+            android:backgroundTint="#212121"
+            android:text="@string/sqrt"
+            android:textColor="#1565C0"
+            android:textSize="50sp" />
+
+        <Button
+            android:id="@+id/btnNumero0"
+            android:layout_marginStart="5dp"
+            android:backgroundTint="#212121"
+            android:text="@string/numero0"
+            android:textColor="#F5F5F5"
+            android:textSize="50sp" />
+
+        <Button
+            android:id="@+id/btnPunto"
+            android:layout_marginStart="5dp"
+            android:backgroundTint="#212121"
+            android:text="@string/punto"
+            android:textColor="#F5F5F5"
+            android:textSize="50sp" />
+
+        <Button
+            android:id="@+id/btnIgual"
+            android:layout_marginStart="5dp"
+            android:backgroundTint="#212121"
+            android:text="@string/igual"
+            android:textColor="#1565C0"
+            android:textSize="50sp" />
+
+    </GridLayout>
+
+</LinearLayout>
